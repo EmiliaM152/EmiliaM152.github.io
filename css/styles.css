@@ -50,19 +50,20 @@
 .cards-card{
     height: 50vh;
     padding: 7vh;
-    overflow: auto; 
+    
   }
 
 .cards-card::-webkit-scrollbar {
     width: 5px; 
   }
  
+first commit
 
-.cards-card:nth-child(1) .cards-card::-webkit-scrollbar-thumb  {
+.cards-card:nth-child(1)  {
     background: #ffffff;
   }
 
-.cards-card:nth-child(1) .cards-card::-webkit-scrollbar-track {
+.cards-card:nth-child(1) {
     background: hsl(31, 77%, 52%); 
   }
 
@@ -79,20 +80,21 @@
     padding-bottom: 3rem;
   }
 
-.cards-card__button{
+.cards-card__button {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
     padding: 2vh 3vh;
-    border-radius: 50px ;
-    border-color: #ffffff;
-    background-color: hsla(0, 0%, 100%, 0);
+    border-radius: 50px;
+    border: 2px solid #090909; /* Color sólido del borde */
+    background-color: hsla(0, 0%, 100%, 0.132);
     color: #ffffff;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
+}
 
 
-  @media (max-width: 800px) {
+
+  @media (max-width: 1000px) {
 
     
     .body-home {
